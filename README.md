@@ -1,30 +1,23 @@
 # win10script
-This is the Ultimate Windows 10 Script from a creation from multiple debloat scripts and gists from github. I also added Chocolatey and other tools to the script that I install on every machine.
+This is an edit of https://github.com/ChrisTitusTech/win10script to remove bloat in the script, remove unnecessary application installations, and remove securty flaws introduced by the script. The only thing this script "installs" is the Microsoft PDF printer, which is useful.
 
-## My Additions
+## Main changes
 
-- Dark Mode
-- One Command to launch and run
-- Chocolatey Install
-- O&O Shutup10 CFG and Run
-- Added Install Programs
-- Added Debloat Microsoft Store Apps
+Does not lower UAC level (VERY bad idea).
+Remove automatic enabling of Dark Mode.
+Remove automatic installation of Chocolatey.
+Does not install any applications.
+Removes all inadvised security tweaks aside from disabling SMB1. None of the security twaks should be done blindly.
+Removes all Server tweaks. Do not run this on servers. Period.
+Does not remove Smart Screen in IE.
+Does not remove GPS location feature.
+Does not disable Maps or Maps updates.
+Does not remove Calculator, Picture Viewer, Alarms, Camera, Sound Recorder.
+Does not remove Windows Store.
+Does not disable PDF and internal Flash in IE and Edge (safer than using plugins).
+Does not make any desktop or taskbar modifications.
+Enables show file extensions, show Control Panel icons. No other Explorer modifications.
 
-## Modifications
-I encourage people to fork this project and comment out things they don't like! Here is a list of normal things people change:
-- Uninstalling OneDrive (This is on in my script)
-- Installing Adobe, Chocolatey, Notepad++, MPC-HC, and 7-Zip
+###
 
-Comment any thing you don't want out... Example:
-
-```
-########## NOTE THE # SIGNS! These disable lines This example shows UACLow being set and Disabling SMB1
-### Security Tweaks ###
-	"SetUACLow",                  # "SetUACHigh",
-	"DisableSMB1",                # "EnableSMB1",
-
-########## NOW LETS SWAP THESE VALUES AND ENABLE SMB1 and Set UAC to HIGH
-### Security Tweaks ###
-	"SetUACHigh",
-	"EnableSMB1",
-```
+Never run scripts from the internet before reading them and understanding what they do.
