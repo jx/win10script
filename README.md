@@ -7,7 +7,7 @@ This is an edit of https://github.com/ChrisTitusTech/win10script to remove bloat
 - Remove automatic enabling of Dark Mode.
 - Remove automatic installation of Chocolatey.
 - Does not install any applications.
-- Removes all inadvised security tweaks aside from disabling SMB1. None of the security twaks should be done blindly.
+- Removes all inadvised security tweaks aside from disabling SMB1. None of the security tweaks should be done blindly.
 - Removes all Server tweaks. Do not run this on servers. Period.
 - Does not remove Smart Screen in IE.
 - Does not remove GPS location feature.
@@ -17,7 +17,7 @@ This is an edit of https://github.com/ChrisTitusTech/win10script to remove bloat
 - Does not disable PDF and internal Flash in IE and Edge (safer than using plugins).
 - Does not make any desktop or taskbar modifications.
 - Enables show file extensions, show Control Panel icons. No other Explorer modifications.
-- Reduce over 2700 lines to 200.
+- Reduce over 2700 lines to 203.
 
 ## Warning
 
